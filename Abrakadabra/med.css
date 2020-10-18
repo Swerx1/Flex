@@ -1,0 +1,40 @@
+@media (min-width: 600px) and (max-width: 1100px){
+    .column-class-marg{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 400px;
+        margin-top: 150px;
+    }
+    .head-of-block-1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .marg-for-rigth-top-of-1{
+    }
+    .column-class{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .column-class-for-price{
+        flex-direction: column;
+        margin-right: 250px;
+    }
+    .column-class-reverse{
+        margin-top: 800px;
+        flex-direction: column-reverse;
+    }
+    .video-lower{
+        margin-top: 300px;
+    }
+    .centrirov{
+        display: flex;
+        justify-content: center;
+    }
+    .white-text-of-video-block{
+        width: 550px;
+    }
+    .hide-elements{
+        display: none;
+    }
+}

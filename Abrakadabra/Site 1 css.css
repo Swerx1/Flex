@@ -1,0 +1,677 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+a{
+    color: #DBE4F1;
+}
+.BlackBigFrame{
+    width: 1600px;
+    height: 535px;
+    background: linear-gradient(315.06deg, #152649 5%, #4F525C 100%);
+}
+.BigFrame{
+    width: 1600px;
+    height: 535px;
+    background: url(Foto1.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.HeaderOfFirstBlock{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 231px - 228px);
+    margin-top: 20px;
+    height: 50px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #DBE4F1;
+}
+.CenterOfBlock{
+    width: 585px;
+    height: 260px;
+    margin-top: -50px;
+    text-align: center;
+}
+.H1InFirstBlock{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 68px;
+
+    margin-top: -10px;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+.Description{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: -30px;
+
+    text-align: center;
+
+    color: #DBE4F1;
+}
+.BTN{
+    margin-left: calc(50% - 227px/2);
+    margin-top: -10px;
+    width: 227px;
+    height: 50px;
+    background: #50E3C2;
+    border-radius: 3px;
+}
+.textBTN{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+
+    color: #0F3D33;
+}
+.underButton{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+
+    text-align: center;
+
+    color: #DBE4F1;
+}
+.TopRigthButton{
+    display: flex;
+    width: 255px;
+    justify-content: space-between;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #DBE4F1;
+}
+.PhotoOnTheTopLeftOfFirstBlock{
+    width: 96px;
+    height: 23px;
+    margin-top: 18px;
+    color: #FFFFFF;
+    background: url(Berlin.png);
+}
+.SecondBlock{
+    width: 1600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FrameForCard{
+    width: 1103px;
+    height: 243px;
+    display: flex;
+    justify-content: space-between;
+}
+.Card1{
+    width: 350px;
+    height: 243px;
+}
+.Card2{
+    width: 354px;
+    height: 243px;
+}
+.Card3{
+    width: 307px;
+    height: 243px
+}
+.HeaderOfCard{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 34px;
+
+    text-align: center;
+
+    color: #000000;
+}
+.textOfCard{
+    width: 307px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 34px;
+
+    text-align: center;
+
+    color: #323232;
+}
+.OvalBlueCenter{
+    width: 10px;
+    height: 10px;
+    margin-bottom: calc(33px - 10px);
+    background: #A665FB;
+    border-radius: 50%;
+
+    position: relative;
+    bottom: 30px;
+}
+.OvalBlueRadius{
+    width: 50px;
+    height: 50px;
+    background: #A665FB;
+    mix-blend-mode: normal;
+    opacity: 0.06;
+    border-radius: 50%;
+}
+.RedOvalCenter{
+    width: 10px;
+    height: 10px;
+    margin-bottom: calc(33px - 10px);
+    background: #FC5C65;
+    border-radius: 50%;
+
+    position: relative;
+    bottom: 30px;
+
+}
+.RedOvalRadius{
+    width: 50px;
+    height: 50px;
+    background: #FC5C65;
+    mix-blend-mode: normal;
+    opacity: 0.06;
+    border-radius: 50%;
+
+}
+.GreenOvalCenter{
+    width: 10px;
+    height: 10px;
+    margin-bottom: calc(33px - 10px);
+    background: #50E3C2;
+    border-radius: 50%;
+
+    position: relative;
+    bottom: 30px;
+}
+.GreenOvalRadius{
+    width: 50px;
+    height: 50px;
+    background: #50E3C2;
+    mix-blend-mode: normal;
+    opacity: 0.06;
+    border-radius: 50%;
+}
+.ThirdBlock{
+    width: 1600px;
+    height: 704px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8FBFE;
+}
+.MiniThirdBlock{
+    width: 1079px;
+    height: 464px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.FrameForImageOfThirdBlock{
+    width: 487px;
+    height: 464px;
+
+}
+.FrameForTextOfGraph{
+    width: 436px;
+    height: 345px;
+}
+.ImageCloser{
+    width: 268.59px;
+    height: 355.53px;
+    margin-left: 15.16px;
+    background: url(152photo.png);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.103346);
+    border-radius: 5px;
+}
+.RectangleForCloserPhoto{
+    position: relative;
+    top: 196.88px;
+    right: 15.16px;
+
+    width: 351px;
+    height: 192px;
+    background: linear-gradient(180deg, rgba(248, 251, 254, 0.0001) -26.82%, #F8FBFE 100%);
+
+}
+.ImageNext{
+    width: 336px;
+    height: 354.78px;
+    background: url(analys.png);
+    box-shadow: 0px 22px 54px rgba(0, 0, 0, 0.136011);
+    border-radius: 5px;
+    position: relative;
+    bottom: 246px;
+    left: 151px;
+}
+.HeaderOfGraph{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+
+    letter-spacing: -0.3px;
+
+    color: #000000;
+}
+.textOfGraph{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+
+
+    color: #323232;
+}
+.BTNForGraph{
+    width: 227px;
+    height: 50px;
+    background: #50E3C2;
+    mix-blend-mode: normal;
+    opacity: 0.14;
+    border-radius: 3px;
+}
+.textBTNForGraph{
+    position: relative;
+    bottom: calc(18px + 1em);
+    left: 28.5px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #0F3D33;
+}
+.Block4{
+    width: 1600px;
+    height: 659px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.Mini4Block{
+    width: 1071px;
+    height: 419px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FrameForImageOf4Block{
+    width: 549px;
+    height: 409px;
+    order: 1;
+}
+.ImageNextOf4Block{
+    width: 320px;
+    height: 297px;
+    background: url(54procent.png);
+    box-shadow: 0px 22px 54px rgba(0, 0, 0, 0.136011);
+    border-radius: 5px;
+    position: relative;
+    Bottom: 345px;
+    left: 223px;
+    z-index: -1;
+}
+.ImageCloserOf4Block{
+    width: 365px;
+    height: 409px;
+    background: url(Activity.png);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.103346);
+    border-radius: 5px;
+}
+.RectangleForCloserPhotoOf4Block{
+    position: relative;
+    top: 194px;
+    left: 224px;
+
+    width: 326px;
+    height: 192px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.0001) -23.88%, #FFFFFF 100%);
+}
+.Block5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1600px;
+    height: 526px;
+    background: url(VideoImage.png);
+}
+.Block5Fon{
+    width: 1600px;
+    height: 526px;
+    background: #222D3D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.CenterOfBlock5{
+    width: 750px;
+    height: 286px;
+    position: absolute;
+}
+h1.UnderPlay{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+    /* identical to box height, or 132% */
+
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+.textUnderPlay{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.Centrir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.OvalRadius{
+    background: #FFFFFF;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    opacity: 0.19;
+}
+.PlayBadge{
+    position: relative;
+    bottom: 58px;
+
+    width: 15px;
+    height: 20px;
+    background: url(PLAY.png);
+}
+.Block6{
+    width: 1601px;
+    height: 507px;
+    background: #F8FBFE;
+    display: flex;
+    justify-content: center;
+}
+.PlanToStart{
+    margin-top: 120px;
+    width: 750px;
+    height: calc(507px - 120px - 253px);
+}
+.HeaderOf6Block{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: -10px;
+
+    letter-spacing: -0.3px;
+
+    color: #000000;
+}
+.textOfBlock6{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    text-align: center;
+
+    color: #323232;
+}
+.Shop2Card{
+    width: 730px;
+    height: 602px;
+
+    margin-top: calc(314px - 507px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Block7{
+    width: 1601px;
+    height: 374px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.ButtonOf7Block{
+    width: 250px;
+    height: 46px;
+    background: #F8FBFE;
+    border: 1px solid #E8E8EA;
+    box-sizing: border-box;
+    border-radius: 23px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
+    /* identical to box height, or 233% */
+
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+
+    color: #0F3D33;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.LeftButtonOf7Block{
+    width: 120px;
+    height: 38px;
+
+    text-align: center;
+    line-height: 38px;
+    color: #0F3D33;
+}
+.RightButtonOf7Block{
+    width: 126px;
+    height: 38px;
+    background: #50E3C2;
+    border-radius: 23px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
+    /* identical to box height, or 233% */
+
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+
+    color: #0F3D33;
+}
+.FrameForCardOfThePrice{
+    height: 556px;
+    width: 730px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.CardWithPrice{
+    width: 350px;
+    height: 515px;
+    background: #FFFFFF;
+}
+.Rectangl{
+    width: 350px;
+    height: 4px;
+}
+.BlueRectangl{
+    width: 350px;
+    height: 4px;
+    background: #50E3C2;
+    border-radius: 6px;
+}
+.Version{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 32px;
+    margin-left: 45px;
+    margin-top: 24px;
+    /* identical to box height, or 246% */
+
+    letter-spacing: 0.433333px;
+    text-transform: uppercase;
+
+    color: #878B90;
+}
+.TypeOfDollar{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 60px;
+    margin-left: 45px;
+    margin-top: 17px;
+    /* identical to box height, or 130% */
+
+    letter-spacing: -0.3px;
+
+    color: #000000;
+}
+.TypeOfAfterDollar{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+
+    /* identical to box height */
+
+    letter-spacing: -0.3px;
+
+    color: #000000;
+}
+.TextOfCardWithPrice{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 44px;
+    margin-bottom: 26px;
+    width: 229px;
+    /* or 164% */
+
+    letter-spacing: -0.4px;
+
+    color: #323232;
+}
+.PointsOfAdvantages{
+    margin-left: 48.52px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+
+    letter-spacing: -0.45px;
+
+    color: #000000;
+}
+.TextWithLine{
+    margin-left: 44px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: line-through;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+
+    letter-spacing: -0.45px;
+
+    color: #8E8E8E;
+}
+.BTNForPrice{
+    margin-top: 31px;
+    margin-left: 44px;
+    width: 227px;
+    height: 50px;
+    background: #50E3C2;
+    border-radius: 3px;
+}
+.textBTNForPrice{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 50px;
+    margin-left: calc(50% - 171px/2);
+    color: #0F3D33;
+}
+.BlackTextUnderBTN{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: 45px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: -0.4px;
+
+    color: #666666;
+}

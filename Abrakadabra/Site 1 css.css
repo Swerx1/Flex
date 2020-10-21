@@ -5,15 +5,15 @@ a{
     text-decoration: none;
 }
 a{
-    color: #DBE4F1;
+    color: #FFFFFF;
 }
 .BlackBigFrame{
-    width: 1600px;
+    width: 100%;
     height: 535px;
     background: linear-gradient(315.06deg, #152649 5%, #4F525C 100%);
 }
 .BigFrame{
-    width: 1600px;
+    width: 100%;
     height: 535px;
     background: url(Foto1.png);
     display: flex;
@@ -116,7 +116,7 @@ a{
     background: url(Berlin.png);
 }
 .SecondBlock{
-    width: 1600px;
+    width: 100%;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -221,7 +221,7 @@ a{
     border-radius: 50%;
 }
 .ThirdBlock{
-    width: 1600px;
+    width: 100%;
     height: 704px;
     display: flex;
     justify-content: center;
@@ -316,7 +316,7 @@ a{
     color: #0F3D33;
 }
 .Block4{
-    width: 1600px;
+    width: 100%;
     height: 659px;
     display: flex;
     justify-content: center;
@@ -362,18 +362,10 @@ a{
     height: 192px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.0001) -23.88%, #FFFFFF 100%);
 }
-.Block5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    width: 1600px;
-    height: 526px;
-    background: url(VideoImage.png);
-}
 .Block5Fon{
-    width: 1600px;
-    height: 526px;
+    width: 100%;
+    height: 500px;
     background: #222D3D;
     display: flex;
     justify-content: center;
@@ -432,7 +424,7 @@ h1.UnderPlay{
     background: url(PLAY.png);
 }
 .Block6{
-    width: 1601px;
+    width: 100%;
     height: 507px;
     background: #F8FBFE;
     display: flex;
@@ -478,7 +470,7 @@ h1.UnderPlay{
     align-items: center;
 }
 .Block7{
-    width: 1601px;
+    width: 100%;
     height: 374px;
 
     display: flex;
@@ -550,6 +542,8 @@ h1.UnderPlay{
     width: 350px;
     height: 515px;
     background: #FFFFFF;
+    box-shadow: 0px 42px 54px rgba(0, 0, 0, 0.0939481);
+    border-radius: 6px;
 }
 .Rectangl{
     width: 350px;
@@ -674,4 +668,414 @@ h1.UnderPlay{
     letter-spacing: -0.4px;
 
     color: #666666;
+}
+.Shops{
+    width: 851px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+}
+.FrameForShops{
+    width: 100%;
+    height: calc(110px + 85px + 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Shops__container{
+    text-align: center;
+    padding-bottom: 40px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #878B90;
+}
+.Shops__brand{
+    display: flex;
+    justify-content: space-between;
+}
+.Growbots{
+    background: url(grow.png);
+    width: 163px;
+    height: 35px;
+}
+.Funnel{
+    background: url(funn.png);
+    width: 191px;
+    height: 42px;
+}
+.Ocean{
+    background: url(digital.png);
+    width: 197px;
+    height: 39px;
+}
+.Sketch{
+    width: 147px;
+    height: 39px;
+    background: url(sket.png);
+}
+.comments{
+    width: 100%;
+    height: 405px;
+    display: flex;
+    justify-content: center;
+}
+.comments-container{
+    width: 1144px;
+    height: 405px;
+    display: flex;
+
+    background: #FFFFFF;
+    border: 1px solid #E8E8EA;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.comments-container-exemple{
+    width: calc(1144px/3);
+    border-right: 1px solid #E8E8EA;
+    padding-left: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.comments-container-exemple:last-child{
+    border-right: none;
+}
+.comments-container-exemple-quotes{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 98px;
+    line-height: 119px;
+/* identical to box height */
+
+    letter-spacing: -0.1px;
+
+    color: #DBE4F1;
+}
+.comments-container-exemple-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 40px;
+    /* or 178% */
+
+    letter-spacing: -0.1px;
+
+    color: #000000;
+}
+.comments-container-exemple-text-margin{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 72px;
+    /* or 178% */
+
+    letter-spacing: -0.1px;
+
+    color: #000000;
+}
+.comments-container-exemple-account{
+    display: flex;
+    height: 56px;
+
+}
+.comments-container-exemple-account-avatar-camer{
+    width: 43px;
+    height: 43px;
+    background: url(Cameron.png);
+}
+.comments-container-exemple-account-avatar-girl{
+    width: 43px;
+    height: 43px;
+    background: url(Ellen.png);
+}
+.comments-container-exemple-account-avatar-nicecamer{
+    width: 43px;
+    height: 43px;
+    background: url(niceCameron.png);
+}
+.comments-container-exemple-account-description{
+    padding-left: 21px;
+
+}
+.comments-container-exemple-account-name{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+    letter-spacing: -0.3px;
+
+    color: #323232;
+}
+.comments-container-exemple-account-home{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: -0.3px;
+
+    color: #323232;
+}
+.lonelyBTN{
+    width: 100%;
+    height: calc(291px + 50px + 101px);
+    display: flex;
+    justify-content: center;
+}
+.lonelyBTN-Frame{
+    height: 50px;
+    width: 707px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 101px;
+}
+.lonelyBTN-Frame-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+
+    letter-spacing: -0.221053px;
+
+    color: #000000;
+}
+.lonelyBTN-Frame-rect{
+    background: #50E3C2;
+    border-radius: 3px;
+    width: 227px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lonelyBTN-Frame-rect-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0F3D33;
+
+}
+.Form{
+    width: 100%;
+    height: 514px;
+    background: #F8FBFE;
+    display: flex;
+    justify-content: center;
+}
+.form-container{
+    width: 558px;
+    height: 565px;
+    margin-top: -171px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container-main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 558px;
+    height: 485px;
+    margin-top: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8EA;
+    box-sizing: border-box;
+    box-shadow: 0px 22px 54px rgba(67, 87, 138, 0.29);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-container-main-btn{
+    height: 50px;
+    width: 456px;
+    padding-left: 16px;
+}
+
+.form-container-main-attach{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 459px;
+    height: 35px;
+}
+.form-container-main-attach-text{
+    width: 220px;
+    height: 21px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 50px;
+    /* or 357% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+
+    color: #323232;
+}
+.form-container-main-attach-btn-text{
+
+    background: #F2F5F8;
+    border-radius: 3px;
+    width: 129px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container-main-attach-btn{
+    position: absolute;
+    bottom: 1px;
+    width: 129px;
+    height: 35px;
+    opacity: 0;
+}
+.form-container-main-attach-relative{
+    position: relative;
+}
+.form-container-main-send{
+    background: #50E3C2;
+    mix-blend-mode: normal;
+    opacity: 0.14;
+    border-radius: 3px;
+    width: 458px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container-main-send-text{
+    position: relative;
+    bottom: 35px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #0F3D33;
+}
+.footer{
+    width: 100%;
+    height: 432px;
+    background: linear-gradient(315.06deg, #152649 5%, #4F525C 100%);
+    display: flex;
+    justify-content: center;
+
+}
+.footer-container{
+    width: calc(100% - 230px - 269px);
+    height: 328px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.footer-container-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container-botton{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container-top-store{
+    width: 165px;
+    height: 227px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-container-top-header{
+    padding-bottom: 23px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+
+
+    color: #DBE4F1;
+
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+.footer-container-top-column{
+    width: 165px;
+    height: 181px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-container-top-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 34px;
+    /* identical to box height, or 212% */
+
+
+    color: #F8FBFE;
+}
+
+.footer-container-botton-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+
+    color: #DBE4F1;
+
+}
+.footer-container-botton-center{
+    width: 227px;
+    height: 18px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container-botton-rigth{
+    height: 16px;
+    width: 86px;
+
+    display: flex;
+    justify-content: space-between;
+
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
 }

@@ -9,16 +9,19 @@
         flex-direction: column;
         align-items: center;
     }
-    .marg-for-rigth-top-of-1{
+    .simple-column-class{
+        flex-direction: column;
+        align-items: center;
     }
     .column-class{
         margin-top: 100px;
         display: flex;
         flex-direction: column;
+
     }
     .column-class-for-price{
         flex-direction: column;
-        margin-right: 250px;
+        margin-right: calc(100% - 730px/2);
     }
     .column-class-reverse{
         margin-top: 800px;
@@ -27,6 +30,10 @@
     .video-lower{
         margin-top: 300px;
     }
+    .lower-400{
+        margin-top: 400px;
+    }
+
     .centrirov{
         display: flex;
         justify-content: center;
@@ -34,7 +41,15 @@
     .white-text-of-video-block{
         width: 550px;
     }
-    .hide-elements{
-        display: none;
+    .comments-media{
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+    }
+    .lower-750{
+        margin-top: 750px;
+    }
+    .footer-column{
+        padding-right: 10px;
     }
 }

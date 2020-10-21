@@ -838,7 +838,7 @@ h1.UnderPlay{
     justify-content: center;
 }
 .lonelyBTN-Frame{
-    height: 50px;
+    height: 90px;
     width: 707px;
     display: flex;
     justify-content: space-between;
@@ -990,7 +990,7 @@ h1.UnderPlay{
 
 }
 .footer-container{
-    width: calc(100% - 230px - 269px);
+    width: calc(100% - 15% - 17%);
     height: 328px;
     margin-top: 60px;
     display: flex;

@@ -9,23 +9,27 @@ a{
 }
 .BlackBigFrame{
     width: 100%;
-    height: 535px;
+    height: 100vh;
     background: linear-gradient(315.06deg, #152649 5%, #4F525C 100%);
 }
 .BigFrame{
     width: 100%;
-    height: 535px;
-    background: url(Foto1.png);
+    height: 100vh;
+    background: url(Foto12.png);
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 .HeaderOfFirstBlock{
     display: flex;
     justify-content: space-between;
+    align-self: flex-start;
     width: calc(100% - 231px - 228px);
     margin-top: 20px;
     height: 50px;
+    position: fixed;
+
+    z-index: 99999;
 
     font-family: Inter;
     font-style: normal;
@@ -408,6 +412,7 @@ h1.UnderPlay{
     align-items: center;
 
 }
+
 .OvalRadius{
     background: #FFFFFF;
     width: 96px;
@@ -548,6 +553,8 @@ h1.UnderPlay{
 .Rectangl{
     width: 350px;
     height: 4px;
+    box-shadow: 0px 42px 54px rgba(0, 0, 0, 0.0939481);
+    border-radius: 6px;
 }
 .BlueRectangl{
     width: 350px;
@@ -570,12 +577,16 @@ h1.UnderPlay{
 
     color: #878B90;
 }
+.Centr{
+    display: flex;
+    align-items: flex-end;
+}
 .TypeOfDollar{
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
     font-size: 46px;
-    line-height: 60px;
+    line-height: 46px;
     margin-left: 45px;
     margin-top: 17px;
     /* identical to box height, or 130% */
@@ -590,10 +601,6 @@ h1.UnderPlay{
     font-weight: bold;
     font-size: 17px;
     line-height: 21px;
-
-    /* identical to box height */
-
-    letter-spacing: -0.3px;
 
     color: #000000;
 }

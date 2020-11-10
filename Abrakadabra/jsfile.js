@@ -51,3 +51,21 @@ card[1].addEventListener('click', function (e){
     leftRect.style.background = 'none';
     rigthRect.style.background = '#50E3C2';
 })
+
+let vseValyuti;
+fetch('https://developerhub.alfabank.by:8273/partner/1.0.0/public/nationalRates')
+    .then(response => response.json())
+    .then(currencyExchange =>{
+        vseValyuti = currencyExchange;
+        const money = {
+            usd :{},
+            eur:{},
+            rub:{}
+        }
+        money.usd = vseValyuti.rates.find((rate)=> rate.iso ==='USD')
+        money.eur = vseValyuti.rates.find((rate)=> rate.iso ==='EUR')
+        money.rub = vseValyuti.rates.find((rate)=> rate.iso ==='RUB')
+        document.querySelector('.currency-usd').innerHTML = money.usd.rate;
+        document.querySelector('.currency-eur').innerHTML = money.eur.rate;
+        document.querySelector('.currency-rub').innerHTML = money.rub.rate;
+    })
